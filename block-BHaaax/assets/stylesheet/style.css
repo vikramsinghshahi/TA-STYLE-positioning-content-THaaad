@@ -48,40 +48,60 @@ table {
 }
 
 /*custom editing*/
-.heading {
-    overflow: hidden;
-    background-color: #333;
-  }
+*,*::before,::after { box-sizing: border-box;}
+body { line-height: 1.5;
+font-size: 32px;}
 
-  .heading h1 {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 40px;
-    text-decoration: none;
-    font-size: 30px;
-  }
+.header { background-color: gainsboro;
+padding: 16px 0;}
 
-  nav a {padding: 20px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    float: right; 
-    color: cornsilk;
-  }
-.content {background-color: coral;
-          padding: 50px;}
-          
-  h2 { font-size: 25px;
-    margin-bottom: 10px;
+.container {max-width: 1200px;
+margin:0 auto;
+padding: 0 32px;
+}
+  
+.brand, .nav {display: inline-block;}
+
+.nav { width:calc(100% - 250px);
+text-align: right;}
+
+.nav a { text-decoration: none; 
+margin-left: 20px;
+font-size: 25px;}
+
+/*article*/
+.article { font-size: 0;
+padding: 60px 0;}
+
+.col { width: 50%;
+display: inline-block;
+font-size: 20px;
+vertical-align: top;
 }
 
-p {font-size: 20px;}
+.image { width:100%;}
 
-footer {text-align: center;
-    background-color: rgb(144,144,231);
-    padding: 50px;   }
+.heading { font-weight: bold;
+    font-size: 30px;
+padding-bottom: 36px;} 
 
-h3 {font-size: 30px;}
+p { line-height: 1.7;
+font-size: 20px;}
+
+.article-col { padding-right: 20px;}
+
+.footer { text-align: center;
+background-color: gold;
+padding: 16px;}
+
+.footer a { text-decoration: none;
+margin: 0 16px;
+font-size: 20px;}
+
+
+
+
+
   
 
 
